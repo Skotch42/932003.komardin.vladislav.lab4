@@ -1,0 +1,251 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>index</title>
+    <style>
+
+        header {
+            background-color: #507299;
+            position: fixed;
+            width: 100%;
+            padding: 5px;
+        }
+
+        body {
+            font-family: sans-serif;
+            background-color: #edeef0;
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            font-size: 14px;
+            display: flex;
+            justify-content: center;
+            padding-top: 70px;
+            margin-left: -15%;
+        }
+
+        .block {
+            background-color: white;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            text-align: justify;
+            border: 20px solid white;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        #logo {
+            padding-left: 14%;
+        }
+
+        content {
+            width: 408px;
+        }
+
+        hr {
+            background-color: #d0d0d0;
+            height: 2px;
+            border: none;
+        }
+
+        #picture {
+            width: 100%;
+        }
+
+        fixed_text {
+            position: fixed;
+            right: 15vw;
+            width: 142px;
+        }
+
+        .fixed_text {
+            background-color: white;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            border: 10px solid white;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            background-color: #edeef0;
+        }
+
+        ul {
+            color: #507299;
+            list-style-type: none;
+            line-height: 95%;
+            width: 190px;
+            padding: 0 15px;
+            margin-top: -1px;
+        }
+
+        li {
+            padding: 10px;
+        }
+
+        li:hover {
+            background-color: #e1e5eb;
+        }
+
+        ::selection {
+            color: green;
+            background-color: #e0e4ea;
+        }
+
+        @media (max-width: 1224px) {
+            fixed_text {
+                display: none;
+            }
+        }
+
+        @media (max-width: 1000px) {
+            main {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+            }
+
+            ul {
+                justify-content: center;
+                display: flex;
+                flex-wrap: wrap;
+                width: 400px;
+                margin-top: -15px;
+                margin-bottom: 20px;
+            }
+
+            footer {
+                margin-top: 20px;
+            }
+        }
+
+        footer {
+            color: grey;
+            background-color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .footer {
+            font-size: 14px;
+            color: #507299;
+            justify-content: space-between;
+            display: flex;
+            flex-direction: row;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <header><img id="logo" src="logo.png"></header>
+
+    <main>
+
+        <nav>
+            <ul>
+                <li>Main page</li>
+                <li>Secondary page</li>
+                <li>Some other page</li>
+                <li>More pages to the god of pages</li>
+                <li>The last page</li>
+            </ul>
+        </nav>
+
+        <content>
+
+            <div class="block">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                
+                <hr>
+
+                <div class="footer">
+                    <div>Like</div>
+                    <div>Comment</div>
+                </div>
+
+            </div>
+
+            <div class="block">
+
+                <img id="picture" src="cat.png">
+
+                <hr>
+
+                <div class="footer">
+                    <div>Like</div>
+                    <div>Comment</div>
+                </div>
+
+            </div>
+
+            <div class="block">
+
+                <h4 style="margin:0;">Some header</h4>
+
+                <hr style="margin: 10px -20px">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                
+                <hr>
+
+                <div class="footer">
+                    <div>Like</div>
+                    <div>Comment</div>
+                </div>
+
+            </div>
+
+            <div class="block">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                
+                <hr>
+
+                <div class="footer">
+                    <div>Like</div>
+                    <div>Comment</div>
+                </div>
+
+            </div>
+
+            <div class="block">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                
+                <hr>
+
+                <div class="footer">
+                    <div>Like</div>
+                    <div>Comment</div>
+                </div>
+
+            </div>
+
+        </content>
+
+        <fixed_text>
+
+            <div class="fixed_text">
+
+                <p>Very important information!</p>
+                <p>Many,many very useful and important information!.</p>
+
+            </div>
+
+            <div class="fixed_text">
+
+                <h4>Some new header!</h4>
+                <p>For example, some new and usefull fixed text. And many another text and more text ...</p>
+
+            </div>
+
+        </fixed_text>
+
+    </main>
+
+    <footer>Simple footer (text in the center).</footer>
+
+</body>
+</html>
